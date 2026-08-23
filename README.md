@@ -28,7 +28,7 @@ Protected routes (dashboard, resume, interview, cover letter, onboarding) requir
 | --- | --- |
 | App | [Next.js 15](https://nextjs.org/) (App Router), React 19, Tailwind CSS, shadcn/ui |
 | Auth | [Clerk](https://clerk.com/) |
-| Database | PostgreSQL + [Prisma](https://www.prisma.io/) (Neon or local Docker) |
+| Database | PostgreSQL + [Prisma](https://www.prisma.io/) ([Neon](https://neon.tech/)) |
 | AI | [Google Gemini](https://ai.google.dev/) |
 | Jobs | [Inngest](https://www.inngest.com/) (weekly insight refresh) |
 | Charts / PDF | Recharts, html2pdf.js |
@@ -79,7 +79,7 @@ data/                  Industries, FAQs, landing copy
 ### Requirements
 
 - Node.js 18+
-- A Postgres database ([Neon](https://neon.tech/) or Docker)
+- A Postgres database ([Neon](https://neon.tech/))
 - [Clerk](https://dashboard.clerk.com/) keys
 - [Gemini API key](https://aistudio.google.com/apikey)
 
@@ -108,18 +108,6 @@ GEMINI_API_KEY=
 ```
 
 Optional: `GEMINI_MODEL` to pin a specific Gemini model.
-
-**Local Postgres with Docker**
-
-```bash
-docker compose up -d
-```
-
-Then set:
-
-```env
-DATABASE_URL=postgresql://postgres:postgres@localhost:5433/career_coach
-```
 
 ### 3. Database
 
