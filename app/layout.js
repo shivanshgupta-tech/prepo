@@ -13,8 +13,8 @@ export const metadata = {
   title: "Prepo | AI Career Coach",
   description:
     "Prepo — AI career coach with industry insights, resume builder, cover letters, and interview prep.",
-  authors: [{ name: "Shivansh" }],
-  creator: "Shivansh",
+  authors: [{ name: "Shivansh Gupta" }],
+  creator: "Shivansh Gupta",
 };
 
 export default function RootLayout({ children }) {
@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
 
           <footer className="bg-muted/50 py-12">
             <div className="container mx-auto px-4 text-center text-gray-200">
-              <p>Made with 💗 by Shivansh</p>
+              <p>Made with 💗 by Shivansh Gupta</p>
             </div>
           </footer>
         </ThemeProvider>
