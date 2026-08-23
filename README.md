@@ -1,5 +1,7 @@
 # Prepo — AI Career Coach
 
+**Live demo:** [https://prepo-nine.vercel.app](https://prepo-nine.vercel.app)
+
 Prepo helps you plan a career move with AI: industry insights, an ATS-friendly resume builder, cover letters, and mock interview quizzes tailored to your role.
 
 Built by [Shivansh](https://github.com/shivanshgupta-tech).
